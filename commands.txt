@@ -1,0 +1,82 @@
+MySQL is a popular relational database management system. Here are some commonly used MySQL commands:
+
+1. Connect to a MySQL server:
+   
+   mysql -u <username> -p
+   
+
+   Replace `<username>` with your MySQL username. You will be prompted to enter your MySQL password after executing this command.
+
+2. Create a new database:
+   
+   CREATE DATABASE database_name;
+   
+
+   Replace `database_name` with the name you want to give to your database.
+
+3. Select a database to work with:
+   
+   USE database_name;
+   
+
+   Replace `database_name` with the name of the database you want to select.
+
+4. Create a table:
+   
+   CREATE TABLE table_name (
+     column1 datatype,
+     column2 datatype,
+     ...
+   );
+   
+
+   Replace `table_name` with the name you want to give to your table. Specify the column names and their respective data types.
+
+5. Insert data into a table:
+   
+   INSERT INTO table_name (column1, column2, ...)
+   VALUES (value1, value2, ...);
+   
+   Replace `table_name` with the name of the table. Specify the column names and the corresponding values you want to insert.
+
+6. Retrieve data from a table:
+   
+   SELECT column1, column2, ...
+   FROM table_name
+   WHERE condition;
+   
+
+   Replace `table_name` with the name of the table. Specify the column names you want to retrieve. You can use the `WHERE` clause to add conditions to filter the data.
+
+7. Update data in a table:
+   
+   UPDATE table_name
+   SET column1 = value1, column2 = value2, ...
+   WHERE condition;
+   
+
+   Replace `table_name` with the name of the table. Specify the column names and their new values. Use the `WHERE` clause to specify the condition for updating specific rows.
+
+8. Delete data from a table:
+   
+   DELETE FROM table_name
+   WHERE condition;
+   
+
+   Replace `table_name` with the name of the table. Use the `WHERE` clause to specify the condition for deleting specific rows.
+
+9. Drop a table:
+   
+   DROP TABLE table_name;
+   
+
+   Replace `table_name` with the name of the table you want to drop. This permanently deletes the table and its data.
+
+10. Exit the MySQL command-line:
+    
+    EXIT;
+    
+
+    Use this command to exit the MySQL command-line interface.
+
+These are just a few examples of commonly used MySQL commands. MySQL provides many more commands and features for database management and querying.
